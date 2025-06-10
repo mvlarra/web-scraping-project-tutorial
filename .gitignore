@@ -1,3 +1,5 @@
 .venv
 .env
 .learn
+*_VL_*.ipynb
+VL_AGENDA.ipynb
