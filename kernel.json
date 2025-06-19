@@ -1,0 +1,11 @@
+{
+ "argv": [
+  "/workspaces/P11_web-scraping-project-tutorial/.venv/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python (.venv P11)",
+ "language": "python"
+}

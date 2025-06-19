@@ -1,18 +1,21 @@
-# Base ----------------------------------------
-sqlalchemy==1.4.37
-pymysql==1.0.2
-pandas>=1.4.2
-python-dotenv==0.20.0
-psycopg2-binary
-requests==2.27.1
+# 🕸 Librerías esenciales para Web Scraping
+requests           # Realizar solicitudes HTTP a sitios web
+beautifulsoup4     # Parsear y navegar el HTML descargado
+lxml               # Parser rápido y robusto para HTML/XML
 
-numpy>=1.18.5
-opencv-python>=4.1.2
-matplotlib>=3.2.2
-ipyleaflet>=0.14.0
-sympy>=1.10.1
+# 🎥 Scraping de YouTube
+yt-dlp             # Extrae metadatos completos de videos y playlists de YouTube
 
-# Machine learning ----------------------------
-scikit-learn
-bs4
-seaborn
+# 📊 Manipulación y exportación de datos
+pandas             # Trabajar con datos tabulares (DataFrames)
+openpyxl           # Exportar o leer archivos Excel (.xlsx) desde pandas
+
+# 📈 Visualización ligera (opcional)
+# seaborn          # Crear gráficos estadísticos con estilo automático
+# matplotlib       # Biblioteca base para gráficos y visualizaciones
+
+# 🧠 Otros (comentados por ahora, útiles como referencia futura)
+# scikit-learn     # Machine Learning: modelos, clustering, clasificación
+# opencv-python    # Procesamiento de imágenes y video
+# jupyter-leaflet  # Visualizar mapas interactivos en notebooks
+# selenium         # Automatizar navegación web con un navegador real
